@@ -2,8 +2,7 @@ let elem = document.createElement("div")
 let elemText = document.createTextNode("Кино")
 elem.id = "yohoho"
 elem.appendChild(elemText)
-//let baseurl = new URL('https://sas57udcs.github.io/cinema/')
-let baseurl = new URL('file:///C:/Users/ssa/Downloads/Cinema/index.html')
+let baseurl = new URL('https://sas57udcs.github.io/cinema/')
 let hash_id = window.location.hash
 
 let loading_player = () => {
