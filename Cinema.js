@@ -4,6 +4,9 @@ elem.id = "yohoho"
 elem.appendChild(elemText)
 let baseurl = new URL('https://sas57udcs.github.io/cinema/')
 let hash_id = window.location.hash
+let hello_div = document.getElementById("hello")
+hello_div.innerHTML = 'Hello ' + window.navigator.userAgent
+
 
 let loading_player = () => {
     if (hash_id) {
